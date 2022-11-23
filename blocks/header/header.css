@@ -1,0 +1,13 @@
+.header {
+  margin: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1184px;
+  height: 52px;
+  border: 1px solid red;
+  margin-top: 28px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
