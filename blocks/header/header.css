@@ -1,13 +1,27 @@
 .header {
   margin: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 1184px;
+  /* min-width: 1184px;*/
+  width: 1184px;
   height: 52px;
-  border: 1px solid red;
   margin-top: 28px;
   margin-left: 48px;
   margin-right: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+border: 1px solid greenyellow;
+
 }
+
+/*@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  /* Браузер сначала попробует найти шрифт локально */
+/*src: local("Inter"),
+       /* Если не получилось, загрузит woff2 */
+url("../../../fonts/Inter\ Desktop/") format("woff2"),
+/* Если браузер не поддерживает woff2, загрузит woff */
+/*url("../../../fonts/Inter\ Desktop/") format("woff");*/
+/*}*/
