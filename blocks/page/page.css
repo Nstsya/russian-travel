@@ -1,6 +1,8 @@
 .page {
     margin: 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: 6875px;
     background: #2A2C2F;
     font-family: 'Inter';
