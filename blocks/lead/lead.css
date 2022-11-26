@@ -1,9 +1,24 @@
 .lead {
     margin: 0;
-    width: 984px;
+    min-width: 984px;
     height: 1005px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 56px;
 }
+
+/*@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+    } }
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+    } }
+
+    @media screen and (max-width: 320px) {
+        .lead {
+            max-width: 320px;
+        } }*/
