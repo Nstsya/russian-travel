@@ -2,16 +2,19 @@
     max-width: 690px;
     min-height: 429px;
     margin-top: 92px;
-    border: 1px red solid;
     margin-left: -295px;
 }
 
 @media screen and (max-width: 1024px) {
-    .intro {}
+    .intro {
+        margin-left: -245px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {}
+    .intro {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 320px) {
