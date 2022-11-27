@@ -1,5 +1,5 @@
 .page {
-  margin: 0;
+  margin: auto;
   min-width: 1280px;
    display: flex;
    flex-direction: column;

@@ -12,11 +12,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .intro__title {}
+    .intro__title {
+        margin-top: -7px; /**/
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .intro__title {}
+    .intro__title {
+    
+    }
 }
 
 @media screen and (max-width: 320px) {

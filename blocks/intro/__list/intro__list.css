@@ -12,3 +12,10 @@
     text-align: left;
     color: white;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
