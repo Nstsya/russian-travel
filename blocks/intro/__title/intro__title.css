@@ -1,0 +1,14 @@
+.intro__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: Black;
+    font-size: 54px;
+    line-height: 58px;
+    /*line-height: 89%;*/
+    text-align: Left;
+    /*Vertical align: Top;*/
+    fill-opacity: Solid;
+    color: #FFFFFF;
+    font-weight: 900;
+}
