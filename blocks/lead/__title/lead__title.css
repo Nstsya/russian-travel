@@ -8,27 +8,30 @@
     text-align: center;
     color: white;
     margin-bottom: 7px;
-    border: 1px solid red;
     word-break: break-word;
 }
+
 @media screen and (max-width: 1024px) {
     .lead__title {
         max-width: 720px;
-        margin-top: -10px; /**/
-    }}
+        margin-top: -10px;
+        /**/
+    }
+}
 
-    @media screen and (max-width: 768px) {
-        .lead__title {
-            max-width: 720px;
-            margin-top: -10px; /**/
-        }}
+@media screen and (max-width: 768px) {
+    .lead__title {
+        max-width: 720px;
+        margin-top: -10px;
+        /**/
+    }
+}
 
 @media screen and (max-width: 320px) {
     .lead__title {
-       max-width: 288px;
+        max-width: 288px;
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;
     }
 }
-
