@@ -5,4 +5,6 @@
     border: 1px solid greenyellow;
  /*   position: absolute;*/
  grid-area: place__website;
+ margin-left: 40px;
+align-self: end;
 }
