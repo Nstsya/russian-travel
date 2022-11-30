@@ -2,9 +2,8 @@
     margin: 0;
     max-width: 456px;
     min-height: 46px;
-    border: 1px solid greenyellow;
- /*   position: absolute;*/
- grid-area: place__website;
- margin-left: 40px;
-align-self: end;
+    grid-area: place__website;
+    margin-left: 40px;
+    align-self: end;
+    margin-bottom: 48px;
 }

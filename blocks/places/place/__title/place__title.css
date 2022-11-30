@@ -1,6 +1,5 @@
 .place__title {
     max-width: 460px;
-    min-height: 152px;
     font-family: 'Inter';
     font-style: Black;
     font-size: 72px;
@@ -11,4 +10,5 @@
     margin: 0;
     margin-bottom: 48px;
     grid-area: place__title;
+    align-self: end;
 }
