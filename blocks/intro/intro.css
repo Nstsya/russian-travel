@@ -9,14 +9,14 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-       /* margin-left: -245px; /**/
+       margin-left: -245px; 
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-      /*  margin-left: -30px; /**/
-       /* margin-top: 87px; /**/
+       margin-left: -30px; 
+    margin-top: 87px; 
     }
 }
 
