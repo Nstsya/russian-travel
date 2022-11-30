@@ -1,0 +1,8 @@
+.place__website {
+    margin: 0;
+    max-width: 456px;
+    min-height: 46px;
+    border: 1px solid greenyellow;
+ /*   position: absolute;*/
+ grid-area: place__website;
+}

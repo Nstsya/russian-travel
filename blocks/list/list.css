@@ -2,6 +2,7 @@
     margin-right: 18px;
     width: 29.29px;
     height: 23.86px;
+    border: 1px solid red;
 }
 
 .list:nth-child(2) {

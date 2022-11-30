@@ -1,0 +1,26 @@
+.place {
+    max-width: 984px;
+    min-height: 660px;
+    border: 1px solid greenyellow;
+
+    /*display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 48px 40px;
+ align-items: start;
+ justify-content: start;
+ padding-bottom: 80px;
+ margin: 0 auto;  */
+
+    display: grid;
+    grid-template-columns: 460px, auto;
+    grid-template-rows: /*152px*/ 1fr auto;
+    grid-template-areas:
+        "place__title place__website"
+       /* "place__image place__paragraf"*/
+        "place__image place__paragraf";
+}
+
+/*.place:last-of-type {
+    padding-bottom: 0;
+}*/
