@@ -9,4 +9,34 @@
     color: white;
     margin: 0;
     margin-bottom: 32px;
+    word-break: break-word;
+    position: absolute;
+    top: 245px
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        top: 115px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        top: 33px;
+    }
 }

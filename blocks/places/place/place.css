@@ -28,9 +28,22 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .place {
-        max-width: 100%;
+        max-width: 600px;
+        grid-template-columns: 320px;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "place__title"
+            "place__website"
+            "place__image"
+            "place__paragraf";
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        max-width: 320px;
         grid-template-columns: 320px;
         grid-template-rows: 1fr;
         grid-template-areas:
