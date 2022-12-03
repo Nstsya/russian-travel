@@ -1,0 +1,35 @@
+.footer {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 92%;
+    margin-top: 92px;
+    margin-bottom: 24px;
+    border: 1px red solid;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: calc(100% - 96px);
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 88px;
+        width: calc(100% - 48px);
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-top: 64px;
+        width: calc(100% - 16px - 118px);
+    }
+}

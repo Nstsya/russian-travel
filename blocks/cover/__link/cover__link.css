@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.cover__link:hover {
+    background: rgba(42, 44, 47, 0.7);
+}
+
 @media screen and (max-width: 1024px) {
     .cover {
         min-height: 640px;
