@@ -4,3 +4,11 @@
     display: flex;
     padding: 0;
 }
+
+@media screen and (max-width: 425px) {
+    .footer__links {
+        display: block;
+        max-width: 186px;
+        min-height: 310px;
+    }
+}

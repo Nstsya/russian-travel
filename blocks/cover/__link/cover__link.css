@@ -2,7 +2,6 @@
     text-decoration: none;
     background: rgba(42, 44, 47, 0.3);
     width: 100%;
-    min-height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,22 +10,4 @@
 
 .cover__link:hover {
     background: rgba(42, 44, 47, 0.7);
-}
-
-@media screen and (max-width: 1024px) {
-    .cover {
-        min-height: 640px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover {
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover {
-        min-height: 200px;
-    }
 }

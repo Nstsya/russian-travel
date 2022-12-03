@@ -14,3 +14,13 @@
 .footer__links:last-of-type {
     margin-right: 0;
 }
+
+
+@media screen and (max-width: 425px) {
+    .footer__link {
+        font-size: 24px;
+        Line-height: 24px;
+       display: block;
+        margin-bottom: 32px;
+    }
+}
