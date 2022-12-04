@@ -1,9 +1,9 @@
 .place__paragraf {
   grid-area: place__paragraf;
-  Font-family: 'Inter';
-  Font-style: Regular;
-  Font-size: 18px;
-  Line-height: 29.34px;
+  font-family: 'Inter';
+  font-style: regular;
+  font-size: 18px;
+  line-height: 29.34px;
   text-align: left;
   color: #FFFFFF;
   max-width: 484px;
