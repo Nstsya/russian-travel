@@ -11,7 +11,7 @@
     margin-bottom: 32px;
     word-break: break-word;
     position: absolute;
-    top: 245px
+    top: 245px;
 }
 
 @media screen and (max-width: 1024px) {

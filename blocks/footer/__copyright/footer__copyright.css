@@ -5,9 +5,9 @@
     color: white;
     padding-right: 48px;
     font-family: 'Inter';
-    Font-style: Regular;
+    font-style: Regular;
     font-size: 16px;
-    Line-height: 18px;
+    line-height: 18px;
     text-align: left;
 }
 
@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
     .footer__copyright {
         font-size: 14px;
-        Line-height: 16px;
+        line-height: 16px;
         padding-right: 50px;
         padding-left: 16px;
     }
