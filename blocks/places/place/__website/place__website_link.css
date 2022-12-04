@@ -1,12 +1,12 @@
 .place__website_link {
     margin: 0;
     font-family: 'Inter';
-    font-style: regular;
+    font-style: 'regular';
     font-size: 18px;
     line-height: 22px;
-    Line-height: 101%;
-    text-align: Left;
-    Fill: Solid;
+    line-height: 101%;
+    text-align: left;
+    fill: solid;
     color: #FFFFFF;
     max-width: 456px;
     min-height: 22px;
