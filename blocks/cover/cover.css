@@ -7,7 +7,7 @@
     background-color: rgba(42, 44, 47, 0.7);
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    position: relative;
+
 }
 
 @media screen and (max-width: 1024px) {

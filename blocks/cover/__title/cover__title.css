@@ -5,13 +5,12 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    text-align: center;
     color: white;
     margin: 0;
-    margin-bottom: 32px;
+    margin-top: 105px;
+    margin-right: 50px;
+    text-align: center;
     word-break: break-word;
-    position: absolute;
-    top: 245px;
 }
 
 @media screen and (max-width: 1024px) {
