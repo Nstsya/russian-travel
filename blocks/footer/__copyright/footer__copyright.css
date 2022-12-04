@@ -3,7 +3,7 @@
     text-decoration: none;
     display: flex;
     color: white;
-   /*padding-left: 433px;*/
+    padding-right: 48px;
     font-family: 'Inter';
     Font-style: Regular;
     font-size: 16px;
@@ -11,8 +11,25 @@
     text-align: left;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        padding-right: 50px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+        font-size: 14px;
+        Line-height: 16px;
+        padding-right: 50px;
+        padding-left: 16px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .footer__copyright {
-        margin-left: -50px;
+        padding-right: 50px;
+        padding-left: 16px;
     }
 }

@@ -15,7 +15,6 @@
     .lead__title {
         max-width: 720px;
         margin-top: -10px;
-        /**/
     }
 }
 
@@ -23,7 +22,6 @@
     .lead__title {
         max-width: 720px;
         margin-top: -10px;
-        /**/
         word-break: break-word;
     }
 }
