@@ -10,3 +10,9 @@
     Line-height: 18px;
     text-align: left;
 }
+
+@media screen and (max-width: 425px) {
+    .footer__copyright {
+        margin-left: -50px;
+    }
+}
