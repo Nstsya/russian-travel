@@ -9,7 +9,6 @@
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*border: 2px solid magenta;*/
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,6 +27,6 @@
 @media screen and (max-width: 320px) {
   .page {
     max-width: 320px;
-    margin-left: 20px;
+    margin-left: 60px;
   }
 }

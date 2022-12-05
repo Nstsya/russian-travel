@@ -1,13 +1,11 @@
 .place__paragraf {
   grid-area: place__paragraf;
-  font-family: 'Inter';
-  font-style: regular;
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 29.34px;
   text-align: left;
   color: #FFFFFF;
   max-width: 484px;
-  min-height: 234px;
   margin-left: 40px;
   font-weight: 400;
 }

@@ -1,9 +1,8 @@
 .place {
     max-width: 984px;
-    min-height: 660px;
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 460px, 484px;
+    grid-template-columns: 460px 484px;
     grid-template-rows: 1fr auto;
     grid-template-areas:
         "place__title place__website"
@@ -16,14 +15,14 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: 440px, 456px;
+        grid-template-columns: 440px 456px;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 340px, 352px;
+        grid-template-columns: 340px 352px;
         max-width: 720px;
     }
 }
@@ -44,12 +43,5 @@
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
-        grid-template-columns: 320px;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "place__title"
-            "place__website"
-            "place__image"
-            "place__paragraf";
     }
 }

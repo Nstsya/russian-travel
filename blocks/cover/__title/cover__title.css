@@ -10,18 +10,17 @@
     margin-top: 105px;
     margin-right: 50px;
     text-align: center;
-    word-break: break-word;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        top: 195px;
+ 
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        top: 115px;
+     
     }
 }
 
@@ -29,13 +28,5 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        top: 33px;
     }
 }
