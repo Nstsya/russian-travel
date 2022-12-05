@@ -1,28 +1,28 @@
-.list {
+.header__list {
     margin-right: 18px;
     width: 29.29px;
     height: 23.86px;
 }
 
-.list:nth-child(2) {
+.header__list:nth-child(2) {
     margin: 0;
     width: 29px;
     height: 28px;
 }
 
 @media screen and (max-width: 1024px) {
-    .list {
+    .header__list {
         width: 30px;
         height: 28px;
     }
 }
     @media screen and (max-width: 320px) {
-        .list {
+        .header__list {
             width: 22px;
             height: 20px;
         }
 
-        .list:nth-child(2) {
+        .header__list:nth-child(2) {
             width: 22px;
             height: 20px;
         }

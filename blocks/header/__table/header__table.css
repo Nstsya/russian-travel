@@ -1,4 +1,4 @@
-.table {
+.header__table {
     display: flex;
     color: white;
     list-style-type: none;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .table {
+    .header__table {
         margin-right: 15px;
     }
 }
