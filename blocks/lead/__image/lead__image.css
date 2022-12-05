@@ -6,11 +6,23 @@
     width: 100%;
     background-image: url(../../../images/lead-polka.jpg);
     background-size: cover;
-    position: relative;
+    /*position: relative;*/
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        margin-top: 55px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+
+    @media screen and (max-width: 320px) {
+        .lead__image {
+            margin-top: 40px;
+        }
     }
 }

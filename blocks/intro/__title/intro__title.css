@@ -1,5 +1,6 @@
 .intro__title {
-    margin: auto;
+    margin: 0;
+    max-width: 100%;
     margin-bottom: 40px;
     font-family: 'Inter';
     font-style: black;
@@ -13,20 +14,20 @@
 
 @media screen and (max-width: 1024px) {
     .intro__title {
-        margin-top: -7px; /**/
+
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__title {
-    
+       
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__title {
-        max-width: 288px;
-        min-height: 70px;
+        /*max-width: 288px;*/
+        max-width: 75%;
         font-size: 32px;
         line-height: 35px;
     }
