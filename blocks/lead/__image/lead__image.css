@@ -5,3 +5,22 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 96%;
+        margin-left: 22px;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+       margin-left: 0px;
+       margin-top: 20px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {}
+}
