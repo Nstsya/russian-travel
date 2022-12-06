@@ -23,5 +23,6 @@
     .intro {
         width: calc(100% - 29px);
         margin-top: 75px;
+        margin-left: 290px;
     }
 }
