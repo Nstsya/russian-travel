@@ -1,12 +1,11 @@
 .place__article {
-  grid-area: place__paragraf;
+  grid-area: place__article;
   font-family: 'Inter',Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 29.34px;
   align-self: flex-start;
   color: #FFFFFF;
-  /*max-width: 484px;*/
-  /*margin-left: 40px;*/
+  max-width: 484px;
   font-weight: 400;
 }
 

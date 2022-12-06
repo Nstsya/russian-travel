@@ -7,7 +7,7 @@
     grid-template-rows: 1fr auto;
     grid-template-areas:
         "place__title place__website"
-        "place__image place__paragraf";
+        "place__image place__article";
 }
 
 .place:last-of-type {
@@ -37,7 +37,7 @@
             "place__title"
             "place__website"
             "place__image"
-            "place__paragraf";
+            "place__article";
     }
 }
 
