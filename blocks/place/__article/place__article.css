@@ -1,19 +1,19 @@
-.place__paragraf {
+.place__article {
   grid-area: place__paragraf;
   font-family: 'Inter',Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 29.34px;
-  text-align: left;
+  align-self: flex-start;
   color: #FFFFFF;
-  max-width: 484px;
-  margin-left: 40px;
+  /*max-width: 484px;*/
+  /*margin-left: 40px;*/
   font-weight: 400;
 }
 
 
 
 @media screen and (max-width: 768px) {
-  .place__paragraf {
+  .place__article {
     font-size: 16px;
     line-height: 26.08px;
     font-weight: 400;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__paragraf {
+  .place__article {
     margin-left: 16px;
     margin-right: 16px;
     max-width: 320px;
