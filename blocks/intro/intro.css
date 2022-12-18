@@ -2,6 +2,7 @@
     margin: 0;
     width: calc(100% - 590px);
     margin-right: 290px;
+    border: 1px solid greenyellow;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,6 +24,6 @@
     .intro {
         width: calc(100% - 29px);
         margin-top: 75px;
-        margin-left: 290px;
+        margin-left: 290px; /*******/
     }
 }

@@ -4,12 +4,14 @@
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+    border: 1px solid greenyellow;
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
+       /* width: 100%;*/
         width: calc(100% - 96px);
-        grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+       grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
     }
 }
 
@@ -17,6 +19,7 @@
     .photo-grid {
         width: calc(100% - 48px);
         grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
+        margin-left: 0;
     }
 }
 

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 25px 147px 92px;
     align-items: center;
+    border: 1px solid greenyellow;
 }
 
 @media screen and (max-width: 1024px) {
