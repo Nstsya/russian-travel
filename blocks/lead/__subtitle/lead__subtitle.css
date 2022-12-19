@@ -9,33 +9,29 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 30px;
-    margin-left: 170px;
+  
+  /*  margin-left: 170px;*/
 }
 
 @media screen and (max-width: 1024px) {
     .lead__subtitle {
-        margin-left: 170px;
+      /*  margin-left: 170px;*/
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
-        margin-right: 140px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .lead__subtitle {
-        font-size: 16px;
-        line-height: 20px;
+        /*margin-right: 140px;*/
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
         max-width: 288px;
-        margin: 0;
+        font-size: 16px;
+        line-height: 20px;
+       /* margin: 0;
         margin-top: 16px;
-        margin-bottom: 40px;
+        margin-bottom: 40px;*/
     }
 }
