@@ -3,9 +3,9 @@ background-color: #2A2C2F;
 margin: 0 auto;
 max-width: 1440px;
 width: 100;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

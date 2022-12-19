@@ -1,17 +1,17 @@
 .cover {
+    margin: 0;
+    padding: 0;
     display: flex;
-    margin: 77px 48px 92px;
+    margin: 77px auto 92px;
     max-width: 1184px;
     min-height: 740px;
     width: 100%;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    border: 1px solid greenyellow;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        margin: 0;
         margin-top: 92px;
         margin-bottom: 92px;
         max-width: 1024px;
