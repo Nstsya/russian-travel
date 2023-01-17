@@ -12,7 +12,7 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: white;
-    border: 1px solid red;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
     .lead__caption {
-        margin-left: 0;
+        margin-left: 24px;
         margin-top: 6px;
     }
 }
