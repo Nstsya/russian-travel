@@ -1,10 +1,10 @@
 .body {
-background-color: #2A2C2F;
-margin: 0 auto;
-max-width: 1440px;
-width: 100;
+  background-color: #2A2C2F;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100;
   /*display: flex;
-  flex-direction: column;
+  flex-direction: column;Ы
   align-items: center;*/
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
@@ -13,13 +13,13 @@ width: 100;
 
 @media screen and (max-width: 1280px) {
   .body {
-      max-width: 1280px;
+    max-width: 1280px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .body {
-      max-width: 1024px;
+    max-width: 1024px;
   }
 }
 
@@ -34,6 +34,6 @@ width: 100;
 @media screen and (max-width: 320px) {
   .body {
     max-width: 320px;
-   /* margin: 0;*/
+    /* margin: 0;*/
   }
 }

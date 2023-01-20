@@ -1,17 +1,27 @@
 .place {
+    margin: 0;
+    padding: 0;
+
     max-width: 984px;
-    padding-bottom: 72px;
-    padding-right: 35px;
+    margin-bottom: 80px;
+    /*padding-bottom: 72px;*/
+    /*padding-right: 35px;*/
     display: grid;
     grid-template-columns: 460px 484px;
     grid-template-rows: 1fr auto;
     grid-template-areas:
         "place__title place__website"
         "place__image place__article";
+        column-gap: 40px;
+        row-gap: 48px;
 }
 
 .place:last-of-type {
-    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.place:first-of-type {
+    margin-top: 31px;
 }
 
 @media screen and (max-width: 1279px) {

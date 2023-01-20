@@ -7,9 +7,9 @@
   text-align: left;
   color: #FFFFFF;
   margin: 0;
-  margin-bottom: 53px;
+  /*margin-bottom: 33px;*/
   grid-area: place__title;
-  align-self: end;
+  /*align-self: end;*/
 }
 
 @media screen and (max-width: 1024px) {
