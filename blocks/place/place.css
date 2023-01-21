@@ -54,10 +54,11 @@
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
-        row-gap: 28px;
+        row-gap: 32px;
+        margin-bottom: 59px;
     }
 
     .place:first-of-type {
-        margin-top: 65px;
+        margin-top: 64px;
     }
 }
