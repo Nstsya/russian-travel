@@ -33,7 +33,8 @@
     .place {
         grid-template-columns: 340px 352px;
         max-width: 720px;
-
+        column-gap: 29px;
+        row-gap: 40px;
     }
 }
 
