@@ -54,6 +54,7 @@
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
+        row-gap: 28px;
     }
 
     .place:first-of-type {

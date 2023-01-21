@@ -1,5 +1,6 @@
 .footer__copyright {
     margin: 0;
+    padding: 0;
     text-decoration: none;
     color: white;
     padding-right: 0;
@@ -20,5 +21,11 @@
     .footer__copyright {
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+        padding-left: 0;
     }
 }
