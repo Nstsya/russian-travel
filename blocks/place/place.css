@@ -25,6 +25,7 @@
     .place {
         grid-template-columns: 440px 456px;
         max-width: 928px;
+        column-gap: 33px;
     }
 }
 
@@ -52,5 +53,9 @@
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
+    }
+
+    .place:first-of-type {
+        margin-top: 65px;
     }
 }
