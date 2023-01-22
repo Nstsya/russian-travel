@@ -28,3 +28,12 @@
         gap: 12px;
     }
 }
+
+/*@media screen and (max-width: 319px) {
+    .photo-grid {
+        width: calc(100% - 50px);
+        grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+        margin-top: 64px;
+        gap: 12px;
+    }
+}*/

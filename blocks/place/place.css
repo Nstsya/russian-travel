@@ -41,7 +41,6 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        margin-left: 2px;
         max-width: 500px;
         grid-template-columns: 320px;
         grid-template-rows: 1fr;
@@ -58,6 +57,8 @@
         max-width: 320px;
         row-gap: 32px;
         margin-bottom: 47px;
+        grid-template-columns: 319px; 
+        justify-content: center;
     }
 
     .place:first-of-type {
