@@ -57,7 +57,7 @@
         max-width: 320px;
         row-gap: 32px;
         margin-bottom: 47px;
-        grid-template-columns: 319px; 
+        grid-template-columns: 319px;
         justify-content: center;
     }
 
