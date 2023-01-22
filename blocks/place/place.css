@@ -35,11 +35,13 @@
         max-width: 720px;
         column-gap: 29px;
         row-gap: 40px;
+        margin-bottom: 79px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place {
+        margin-left: 2px;
         max-width: 500px;
         grid-template-columns: 320px;
         grid-template-rows: 1fr;
@@ -55,10 +57,14 @@
     .place {
         max-width: 320px;
         row-gap: 32px;
-        margin-bottom: 59px;
+        margin-bottom: 47px;
     }
 
     .place:first-of-type {
         margin-top: 64px;
+    }
+
+    .place:last-of-type {
+        margin-top: 30px;
     }
 }
